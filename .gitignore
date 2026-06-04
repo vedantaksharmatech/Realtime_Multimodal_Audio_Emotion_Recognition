@@ -1,0 +1,36 @@
+venv/
+__pycache__/
+*.pyc
+
+.ipynb_checkpoints/
+
+data/
+
+models/*.keras
+models/*.h5
+models/*.npy
+models/*.pkl
+models/*.png
+models/mfcc_images/
+
+*.wav
+temp.wav
+
+.DS_Store
+Thumbs.db
+# Trained Models
+models/audio_cnn_bilstm_attention_best.keras
+models/label_encoder.pkl
+models/norm_stats.pkl
+
+# DistilBERT model
+models/text_emotion/
+
+# Audio recordings
+src/realtime/*.wav
+
+# Python cache
+__pycache__/
+*.pyc
+
+MODEL_BACKUP/
